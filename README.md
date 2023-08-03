@@ -38,7 +38,7 @@ The notebooks/ directory contains Jupyter notebooks for exploratory data analysi
 ## Getting Started
 To get started with the project, follow these steps:
 
-1. Clone the repository: git clone https://github.com/yourusername/NoAppointmentMedicalAttendance.git
+1. Clone the repository: git clone https://github.com/MTalhaZafar32/Investigate-a-Dataset-No-Show-Appointment-.git
 
 2. Install the required dependencies: pip install -r requirements.txt (if applicable)
 
