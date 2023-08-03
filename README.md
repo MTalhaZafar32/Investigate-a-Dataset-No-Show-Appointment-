@@ -1,76 +1,70 @@
 # Investigate-a-Dataset-No-Show-Appointment
 
-This project investigates a dataset of medical appointments in Brazil, focusing on the characteristics of patients and their attendance or absence from scheduled appointments. The dataset, collected in May/June 2016, contains information about 110,000 appointments and consists of 14 unique variables.
+No Appointment Medical Attendance Analysis
+This repository contains a Python project that investigates a dataset of medical appointments in Brazil, focusing on the characteristics of patients and their attendance or absence from scheduled appointments. The project aims to provide valuable insights into the factors influencing patient attendance at medical appointments.
 
-Table of Contents
-Introduction
-Data Wrangling
-Exploratory Data Analysis
-Conclusion
+## Project Overview
+The main objective of this project is to analyze the dataset of medical appointments and explore the relationships between various variables and patient attendance. The project consists of the following components:
 
+1. Data Wrangling: In this stage, the dataset is cleaned and prepared for analysis. Missing values, duplicates, or inconsistencies are addressed to ensure the accuracy of the findings.
 
-Introduction
-The dataset used for this project was collected from Kaggle and provides valuable insights into the factors influencing patient attendance at medical appointments. The variables in the dataset include:
+2. Exploratory Data Analysis: The exploratory data analysis aims to uncover patterns and relationships within the dataset. Key questions are investigated, including the ratio of patient attendance, the impact of waiting time on attendance, the effect of age and gender on attendance, and the influence of scholarships and SMS reminders.
 
+## Repository Structure
+The repository is structured as follows:
 
-PatientId: Identification of a patient
+kotlin
+Copy code
+NoAppointmentMedicalAttendance/
 
-AppointmentID: Identification of each appointment
+ ```
+  ├── data/
+  │   ├── medical_appointments.csv
+  │   ├── cleaned_medical_appointments.csv
+  │   
+  ├── notebooks/
+  │   ├── exploratory_data_analysis.ipynb
+  │   ├── data_wrangling.ipynb
+  │   └── ...
+  ├── README.md
+  └── .gitignore
 
-Gender: Male or Female
+```
 
-ScheduledDay: The day the patient set up their appointment
+The data/ directory will store the original and cleaned dataset in CSV format. The initial dataset is provided as medical_appointments.csv, and the cleaned dataset will be saved as cleaned_medical_appointments.csv.
 
-AppointmentDay: The day of the actual appointment
+The notebooks/ directory contains Jupyter notebooks for exploratory data analysis and data wrangling. The exploratory_data_analysis.ipynb notebook contains the code and analysis for exploring the dataset, and the data_wrangling.ipynb notebook shows the steps taken to clean and prepare the data.
 
-Age: Age of the patient
+## Getting Started
+To get started with the project, follow these steps:
 
-Neighbourhood: Location of the hospital
+1. Clone the repository: git clone https://github.com/yourusername/NoAppointmentMedicalAttendance.git
 
-Scholarship: Medical scholarship (True or False)
+2. Install the required dependencies: pip install -r requirements.txt (if applicable)
 
-Hypertension: Presence of hypertension (True or False)
+3. Explore the data/ directory to find the original dataset (medical_appointments.csv).
 
-Diabetes: Presence of diabetes (True or False)
+4. Open the notebooks/exploratory_data_analysis.ipynb notebook to view the analysis of the dataset and the key findings.
 
-Alcoholism: Presence of alcoholism (True or False)
+5. Open the notebooks/data_wrangling.ipynb notebook to see how the data was cleaned and prepared for analysis.
 
-Handicap: Presence of a handicap (True or False)
+## Data Files
+- medical_appointments.csv: The original dataset containing information about 110,000 medical appointments.
 
-SMS_received: Number of messages sent to the patient
+- cleaned_medical_appointments.csv: The cleaned and prepared dataset used for the exploratory data analysis.
 
-No-show: Attendance status of the patient (Yes or No)
+## Contributions
+Contributions and enhancements to the project are always welcome. If you find any issues or want to add new features, feel free to submit a pull request.
 
+## License
+This project is licensed under the MIT License.
 
-Data Wrangling
-In this section, the dataset was cleaned and prepared for analysis. Any missing values, duplicates, or inconsistencies were addressed to ensure the accuracy of the findings.
-
-
-Exploratory Data Analysis
-The exploratory data analysis aimed to uncover patterns and relationships within the dataset. The following key questions were investigated:
-
-What is the ratio of patient attendance?
-
-The dataset revealed that 22,316 patients were absent while 88,203 patients attended their appointments. This information provides insights into the overall attendance rate.
-Is waiting time affecting patient attendance?
-
-An analysis of waiting time showed that approximately 85% of patients had to wait between 0 and 29 days. Furthermore, it was observed that waiting time had a minor effect on patients waiting for more than 60 days.
-Does age affect patient attendance?
-
-The analysis indicated that patients aged between 40 and 60 had fewer absences compared to other age groups. This finding suggests that individuals in this age range, which represents the beginning of old age, may have higher health concerns.
-Does gender affect patient attendance?
-
-The dataset revealed that females accounted for 65% of appointments, while males accounted for 35%. Furthermore, it was observed that females had a higher attendance rate compared to males, indicating a correlation between gender and appointment attendance.
-Does having a scholarship affect patient attendance?
-
-The analysis showed no significant impact of scholarships on patient attendance.
-Does receiving SMS messages affect patient attendance?
-
-The analysis revealed no significant impact of SMS messages on patient attendance.
+Acknowledgments
+The project acknowledges the valuable resources and libraries from the Python ecosystem that enable data analysis and visualization.
 
 
-Conclusion
-In conclusion, this project investigated a dataset of medical appointments in Brazil, exploring various factors that may influence patient attendance. The findings suggest that age, gender, and waiting time play a role in appointment attendance, while scholarships and SMS reminders showed no significant impact.
 
-Please refer to the Jupyter Notebook or Python script in this
+
+
+
 
