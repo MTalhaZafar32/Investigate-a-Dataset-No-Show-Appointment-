@@ -44,9 +44,9 @@ To get started with the project, follow these steps:
 
 3. Explore the data/ directory to find the original dataset (medical_appointments.csv).
 
-4. Open the notebooks/exploratory_data_analysis.ipynb notebook to view the analysis of the dataset and the key findings.
+4. Open the notebooks/ `exploratory_data_analysis.ipynb` notebook to view the analysis of the dataset and the key findings.
 
-5. Open the notebooks/data_wrangling.ipynb notebook to see how the data was cleaned and prepared for analysis.
+5. Open the notebooks/ `data_wrangling.ipynb` notebook to see how the data was cleaned and prepared for analysis.
 
 ## Data Files
 - medical_appointments.csv: The original dataset containing information about 110,000 medical appointments.
@@ -57,7 +57,7 @@ To get started with the project, follow these steps:
 Contributions and enhancements to the project are always welcome. If you find any issues or want to add new features, feel free to submit a pull request.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the `MIT License`.
 
 Acknowledgments
 The project acknowledges the valuable resources and libraries from the Python ecosystem that enable data analysis and visualization.
