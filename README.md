@@ -49,9 +49,9 @@ To get started with the project, follow these steps:
 5. Open the notebooks/ `data_wrangling.ipynb` notebook to see how the data was cleaned and prepared for analysis.
 
 ## Data Files
-- medical_appointments.csv: The original dataset containing information about 110,000 medical appointments.
+- `medical_appointments.csv`: The original dataset containing information about 110,000 medical appointments.
 
-- cleaned_medical_appointments.csv: The cleaned and prepared dataset used for the exploratory data analysis.
+- cleaned_medical_appointments.csv`: The cleaned and prepared dataset used for the exploratory data analysis.
 
 ## Contributions
 Contributions and enhancements to the project are always welcome. If you find any issues or want to add new features, feel free to submit a pull request.
